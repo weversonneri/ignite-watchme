@@ -50,7 +50,7 @@ export function App() {
       <div className="container">
 
         <Header title={selectedGenre.title} />
-        <Content data={movies} />
+        <Content movies={movies} />
 
       </div>
     </div>
